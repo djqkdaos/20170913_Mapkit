@@ -12,6 +12,7 @@
 		3C779C051F68EAC2004BCCDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C779C031F68EAC2004BCCDE /* Main.storyboard */; };
 		3C779C071F68EAC2004BCCDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C779C061F68EAC2004BCCDE /* Assets.xcassets */; };
 		3C779C0A1F68EAC2004BCCDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C779C081F68EAC2004BCCDE /* LaunchScreen.storyboard */; };
+		3C779C141F68EC03004BCCDE /* locationInfomation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C779C131F68EC03004BCCDE /* locationInfomation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3C779C061F68EAC2004BCCDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C779C091F68EAC2004BCCDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C779C0B1F68EAC2004BCCDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C779C131F68EC03004BCCDE /* locationInfomation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = locationInfomation.swift; path = ../locationInfomation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		3C779BFE1F68EAC2004BCCDE /* 20170913_Mapkit */ = {
 			isa = PBXGroup;
 			children = (
+				3C779C131F68EC03004BCCDE /* locationInfomation.swift */,
 				3C779BFF1F68EAC2004BCCDE /* AppDelegate.swift */,
 				3C779C011F68EAC2004BCCDE /* ViewController.swift */,
 				3C779C031F68EAC2004BCCDE /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C779C141F68EC03004BCCDE /* locationInfomation.swift in Sources */,
 				3C779C021F68EAC2004BCCDE /* ViewController.swift in Sources */,
 				3C779C001F68EAC2004BCCDE /* AppDelegate.swift in Sources */,
 			);
